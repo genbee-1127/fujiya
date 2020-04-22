@@ -13,11 +13,13 @@ html {
   overflow: auto;
   scroll-snap-type: y proximity;
   height: 100vh;
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .area {
   scroll-snap-align: start;
   height: 100vh;
-　display: flex;
 }
 
 /* General Styling */
@@ -43,4 +45,5 @@ h1 {
   margin:auto;
   padding: 24px;
   background: #fff59d;
+	display: block;
 }
