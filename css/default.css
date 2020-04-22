@@ -36,29 +36,10 @@ h1 {
   background-color: #0bd;
 }
 
-a {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-decoration: none;
-}
-a {
-  padding-top: 60px;
-}
-a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
+.inner {
+  width: 520px; /* 好きな幅 */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff59d;
 }
