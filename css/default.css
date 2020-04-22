@@ -17,7 +17,7 @@ html {
 .area {
   scroll-snap-align: start;
   height: 100vh;
-　position: relative;
+　display: flex;
 }
 
 /* General Styling */
@@ -40,12 +40,7 @@ h1 {
 .inner {
   width: 960px; /* 好きな幅 */
   max-width: 100%;
-  margin: 0 auto;
+  margin:auto;
   padding: 24px;
   background: #fff59d;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
