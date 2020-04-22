@@ -1,3 +1,14 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+html {
+	font-size: 16px;
+	font-family: 'M PLUS 1p', sans-serif;
+}
+
+/*コンテンツエリア設定*/
+
 .container {
   overflow: auto;
   scroll-snap-type: y proximity;
