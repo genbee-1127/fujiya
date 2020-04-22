@@ -15,25 +15,29 @@
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css">
-  <link rel="stylesheet" href="./css/crosscover.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- jQuery -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- crosscover.js -->
-  <script src="./js/crosscover.min.js"></script>
-  <script src="./js/default.js"></script>
+  <script>
+  AOS.init();
+</script>
+  
 </head>
 
 <body>
 <div class="container">
   <section class="area">
     <h1>scroll-snap-type: y mandatory</h1>
-    <p>1</p>
+    <p data-aos="fade-up"
+     data-aos-anchor-placement="center-center">1</p>
   </section>
   <section class="area">
     <h1>scroll-snap-type: y mandatory</h1>
-    <p>2</p>
+    <p data-aos="fade-up"
+     data-aos-anchor-placement="center-center">2</p>
   </section>
   <section class="area">
     <h1>scroll-snap-type: y mandatory</h1>
