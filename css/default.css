@@ -13,13 +13,13 @@ html {
   overflow: auto;
   scroll-snap-type: y proximity;
   height: 100vh;
-	display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .area {
   scroll-snap-align: start;
   height: 100vh;
+		display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* General Styling */
