@@ -184,7 +184,7 @@ img.sp{
     background-size: contain;
 }
 
-/* mobile bugfix */
+/* mobile bugfix 
 @media screen and (max-width: 481px) {
   .parallax {
     background-image: none !important;
@@ -204,10 +204,13 @@ img.sp{
     background-size: cover;
     z-index: -1;
   }
+
   .parallax.bg-01::before {
     background-image: url(../img/contact_logo.png);
   }
+
   .parallax.bg-02::before {
     background-image: url(../img/contact_logo_2.png);
   }
+  */
 }
