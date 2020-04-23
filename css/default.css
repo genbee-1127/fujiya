@@ -66,15 +66,14 @@ h4 span{
 }
 h5{
   font-size: 1.5rem;
+  margin-bottom: 3%;
 }
 
 #contact{
   font-size: 1.5rem;
   line-height: 1.5;
 }
-.pickup {
-  transform: rotate(-15deg);
-}
+
 h2.pickup{font-size: 5rem;
 color: red;}
 
