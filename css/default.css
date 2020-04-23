@@ -171,10 +171,7 @@ img.sp{
     background-attachment: fixed;
     background-size: cover;    
 }
-.content {
-    padding: 60px;
 
-}
 .parallax.bg-01 {
     background-image: url(../img/contact_logo.png);
     background-size: contain;
