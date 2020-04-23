@@ -65,8 +65,15 @@ h4 span{
   font-size: 80%;
 }
 
-
-
+#contact{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.pickup {
+  transform: rotate(-15deg);
+}
+h2.pickup{font-size: 5rem;
+color: red;}
 
 .inner {
   position: relative;
@@ -85,6 +92,16 @@ h4 span{
   line-height: 1.5;
   }
 
+  #contact h4{
+    line-height: 1;
+    margin: 5% auto;
+    color: #333;
+    font-weight: 500;
+    border: red 2px solid;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+  }
 
 .inner img {
   width: 100%;
@@ -120,6 +137,11 @@ img.sp{
   @media screen and (max-width: 481px) {
     h4 span{
       font-size: 50%;
+    }
+    #contact h4{width: 80%; line-height: 1.2;}
+    #contact h4 span{
+      font-size: 70%;
+      font-weight: 800;
     }
     .inner div{
       width: 90%;
