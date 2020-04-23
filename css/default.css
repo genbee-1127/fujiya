@@ -4,7 +4,12 @@ padding:0;
 }
 html {
 	font-size: 16px;
-	font-family: 'M PLUS 1p', sans-serif;
+	font-family: "Hannari";
+}
+body {
+  font-size: 4rem;
+  text-align: center;
+  color: #333;
 }
 
 /*コンテンツエリア設定*/
@@ -23,11 +28,7 @@ html {
 }
 
 /* General Styling */
-body {
-  font-size: 4rem;
-  text-align: center;
-  color: #fff;
-}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
