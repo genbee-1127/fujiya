@@ -184,8 +184,8 @@ img.sp{
     background-size: contain;
 }
 
-/* mobile bugfix 
-@media screen and (max-width: 575px) {
+/* mobile bugfix */
+@media screen and (max-width: 481px) {
   .parallax {
     background-image: none !important;
     height: 100%;
@@ -211,4 +211,3 @@ img.sp{
     background-image: url(../img/contact_logo_2.png);
   }
 }
-*/
