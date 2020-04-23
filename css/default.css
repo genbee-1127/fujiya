@@ -136,6 +136,7 @@ img.sp{
 .br-pc { display:block; }
 .br-sp { display:none; }
 
+.line-it-button{margin-top: 10%;}
 
   @media screen and (max-width: 481px) {
     h4 span{
