@@ -164,59 +164,8 @@ img.sp{
     .br-sp { display:block; }
   }
 
-/*
-  .parallax {
-    
-    min-height: 200px;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover    
-}
-
-.parallax.bg-01 {
-    background-image: url(../img/contact_logo.png);
-    height: 200px;
-
-}
-
-.scrollbox{height: 100%;
-padding: 2%;}
-
-/* mobile bugfix 
-@media screen and (max-width: 481px) {
-  .parallax {
-    background-image: none !important;
-    height: 200px;
-  }
-  .parallax::before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    -webkit-transform: translate3d(0, 0, -1px);
-    transform: translate3d(0, 0, -1px);
-    width: 100%;
-    min-height: 150px;
-    -webkit-background-size: cover;
-    background-size: cover;
-    z-index: -100;
-  }
-
-  .parallax.bg-01::before {
-    background-image: url(../img/contact_logo.png);
-  }
-}
-*/
-
-.parallax-window {
-  min-height: 200px;
-  background: transparent;
-}
-
 #contact img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-margin-top: 5%;}
+  margin-top: 5%;}
