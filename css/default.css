@@ -7,7 +7,6 @@ html {
 	font-family: "M PLUS 1p";
 }
 body {
-  font-size: 2rem;
   text-align: center;
   color: #333;
   display: flex;
@@ -28,11 +27,14 @@ footer small{
 }
 
 h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
 }
+h2 span{
+  font-size: 75%;
+}
 h3{
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -55,6 +57,7 @@ h3:before {
 }
 
 h4{
+  font-size: 2rem;
   color: red;
   font-weight: 700;
 }
@@ -67,6 +70,7 @@ h4 span{
 
 .inner {
   position: relative;
+  font-size: 1.5rem;
   }
 
 .inner div {
@@ -84,6 +88,10 @@ h4 span{
 
 .inner img {
   width: 100%;
+  }
+
+  .inner p{
+    margin: 1.5% 0;
   }
 
   .inner img.sp_menue{
